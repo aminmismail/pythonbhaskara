@@ -1,1 +1,13 @@
-teste de script bhaskara python
+import time
+print("Bhaskara de 2° Grau")
+a = int(input("Valor de 'a': "))
+b = int(input("Valor de 'b': "))
+c = int(input("Valor de 'c': "))
+time.sleep(3)
+b4ac = (b ** 2)-(4*a*c)
+sqr = (b4ac ** (1/2))
+x1 = ((b*(-1))+sqr)/(2*a)
+x2 = ((b*(-1))-sqr)/(2*a)
+print('X1 = ', x1)
+print('X2 = ', x2)
+print('=====/END/=====')
